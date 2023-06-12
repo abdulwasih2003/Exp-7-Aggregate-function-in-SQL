@@ -1,16 +1,16 @@
-# Exp 7 Aggregate function in SQL.
-## AIM:
+# Exp-7--Aggregate function in SQL.
+## Aim:
 To write a sql query to perform Aggregate function in SQL.
-## PROCEDURE:
-### STEP 1:
-create database AGGREGATE_FUNCTION.
-### STEP 2:
-create table DETAILS with ID and value.
-### STEP 3:
+## Algorithm:
+### Step 1:
+Create database AGGREGATE_FUNCTION.
+### Step 2:
+Create table DETAILS with ID and value.
+### Step 3:
 Insert Value to the table DETAILS.
-### STEP 4:
+### Step 4:
 Perform Aggregate functions like SUM(),COUNT(),AVG().
-## PROGRAM:
+## Program:
 ```sql
 CREATE DATABASE AGGREGATE_FUNCTION;
 USE AGGREGATE_FUNCTION;
@@ -29,7 +29,7 @@ SELECT SUM(Value) FROM DETAILS;
 SELECT COUNT(*) FROM DETAILS;
 SELECT AVG(Value) FROM DETAILS;
 ```
-## OUTPUT:
+## Output:
 ![image](https://github.com/Karthikeyan21001828/DBMS_EX07/assets/93427303/45884ba1-9f50-4419-864d-84d1652fe84a)
 
 ![image](https://github.com/Karthikeyan21001828/DBMS_EX07/assets/93427303/870e4253-9628-40bd-bfee-abf8bfd2355a)
@@ -39,5 +39,5 @@ SELECT AVG(Value) FROM DETAILS;
 ![image](https://github.com/Karthikeyan21001828/DBMS_EX07/assets/93427303/a9f20597-edab-4a01-962e-279ce5f290d0)
 
 
-## RESULT:
+## Result:
 A sql query to perform Aggregate function in SQL has been executed.
